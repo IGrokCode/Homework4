@@ -5,10 +5,7 @@ public class Driver {
 		Scanner keys = new Scanner(System.in);
 		System.out.println("Enter n values to calculate of f(n): ");
 		long size = keys.nextLong();
-		//System.out.println("Enter max time for program to run(seconds): ");
-		//100long runTime = keys.nextLong();
 		long startTime = System.currentTimeMillis();
-		// ... do something ...
 		
 		long a = 1, b = 2, c = 7;
 		long current = 0;
